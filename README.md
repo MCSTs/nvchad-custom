@@ -1,3 +1,1 @@
 # nvchad-custom
-
-custom stuff
