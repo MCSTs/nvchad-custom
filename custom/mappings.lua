@@ -82,14 +82,14 @@ M.disabled = {
     ["<leader>wr"] = "",
     ["<leader>wa"] = "",
     ["<leader>D"] = "",
-    ["<leader>ra"] = "",
+    ["<leadar>ra"] = "",
     ["<leader>f"] = "",
     ["<leader>q"] = "",
 
     -- tabufline
     ["<leader>x"] = "",
-    ["<Tab>"] = "",
-    ["<S-Tab>"] = "",
+    ["<tab>"] = "",
+    ["<S-tab>"] = "",
 
     -- telescope
     ["<leader>fw"] = "",

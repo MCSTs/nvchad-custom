@@ -48,11 +48,13 @@ M.nvimtree = {
   filters = {
     dotfiles = true,
   },
-
+  update_focused_file = {
+    enable = true,
+    update_root = true,
+  },
   git = {
     enable = true,
   },
-
   renderer = {
     highlight_git = true,
     icons = {
@@ -74,7 +76,7 @@ M.cmp = {
     ["<C-k>"] = cmp.mapping.complete(),
     ["<C-j>"] = cmp.mapping.close(),
     ["<C-Space>"] = noop,
-    ["<C-f>"] = noop,
+    -- ["<C-f>"] = noop,
     ["<C-e>"] = noop,
   },
 }

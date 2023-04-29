@@ -47,7 +47,7 @@ opt.signcolumn = "yes"
 
 opt.isfname:append "@-@"
 
-opt.updatetime = 50
+opt.updatetime = 100
 
 opt.colorcolumn = "80"
 
