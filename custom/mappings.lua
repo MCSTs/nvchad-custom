@@ -59,6 +59,8 @@ M.general = {
     -- automaton
     ["<leader><leader>j"] = { "<cmd>CellularAutomaton game_of_life<CR>", "Automaton game_of_life" },
     ["<leader><leader>k"] = { "<cmd>CellularAutomaton make_it_rain<CR>", "Automaton make_it_rain" },
+    -- markdown preview
+    -- ["<leader>mp"] = { ":MarkdownPreview<cr>", "MarkdownPreview", opts = {silent = true} },
   },
   v = {
     -- cursor move

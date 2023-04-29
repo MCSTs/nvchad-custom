@@ -127,6 +127,9 @@ local plugins = {
   --   init = function()
   --     require("core.utils").lazy_load "markdown-preview.nvim"
   --   end,
+  --   config = function() 
+  --     vim.fn["mkdp#util#install"]()
+  --   end,
   -- },
 
   -- To make a plugin not be loaded
