@@ -1,10 +1,10 @@
 local autocmd = vim.api.nvim_create_autocmd
 
 -- Auto resize panes when resizing nvim window
--- autocmd("VimResized", {
---   pattern = "*",
---   command = "tabdo wincmd =",
--- })
+autocmd("VimResized", {
+  pattern = "*",
+  command = "tabdo wincmd =",
+})
 
 -- 打开时自动定位到上次关闭位置
 autocmd(
@@ -37,7 +37,7 @@ opt.wrap = false
 opt.swapfile = false
 opt.backup = false
 
-opt.hlsearch = false
+opt.hlsearch = true
 opt.incsearch = true
 
 opt.termguicolors = true
@@ -51,8 +51,14 @@ opt.updatetime = 100
 
 opt.colorcolumn = "80"
 
+-- opt.cmdheight = 0
+
 -- ufo
 vim.o.foldcolumn = '0' -- '0' is not bad
 vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decrease the value
 vim.o.foldlevelstart = 99
 vim.o.foldenable = true
+
+-- markdown preview
+vim.g.mkdp_auto_close = 0
+
