@@ -170,6 +170,30 @@ M.telescope = {
   },
 }
 
+M.gitsigns = {
+  n = {
+    -- Actions
+    ["<leader>rh"] = {
+      function()
+        require("gitsigns").reset_hunk()
+      end,
+      "Reset hunk",
+    },
+    ["<leader>sh"] = {
+      function()
+        require("gitsigns").stage_hunk()
+      end,
+      "stage hunk",
+    },
+    ["<leader><leader>u"] = {
+      function()
+        require("gitsigns").undo_stage_hunk()
+      end,
+      "undo stage hunk",
+    },
+  },
+}
+
 M.lspconfig = {
   n = {
     ["<leader>ld"] = {
